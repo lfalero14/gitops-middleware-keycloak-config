@@ -14,9 +14,9 @@ spec:
   #    memory: 1700Mi
   db:
     vendor: postgres
-    host: operator-keycloak-db.database.svc.cluster.local
-    port: 5432
-    database: keycloakBD
+    host: LNXDBDVLI0016.gp.inet
+    port: 5425
+    database: Keycloak
     usernameSecret:
       name: keycloak-db-secret
       key: username
