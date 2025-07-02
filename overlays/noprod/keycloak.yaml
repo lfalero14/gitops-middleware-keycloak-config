@@ -14,7 +14,8 @@ spec:
   #    memory: 1700Mi
   db:
     vendor: postgres
-    host: operator-keycloak-db.database.svc.cluster.local
+    host: a61d4c974e69e4c81a78bbcf7cac037b-1739793393.us-east-2.elb.amazonaws.com
+    #host: operator-keycloak-db.database.svc.cluster.local
     port: 5432
     database: keycloakBD
     usernameSecret:
